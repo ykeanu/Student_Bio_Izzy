@@ -1,0 +1,22 @@
+header {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+.leftSide {
+	float: left;
+	margin: 20px;
+}
+
+.center {
+	float: center;
+	margin-top: 100px;
+	width: 80%
+	height: 80%;
+}
+
+.rightSide {
+	float: right;
+	margin: 20px;
+}
