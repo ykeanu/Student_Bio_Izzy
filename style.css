@@ -1,22 +1,48 @@
-header {
-	background-color: black;
-	color: white;
+body {
+	background-color: #E5E8E8;
+	font-family: "Georgia", "Times New Roman", Times;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	color: #FFFFFF;
+	background-color: #000000;
 	text-align: center;
+	font-size: 28px;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
-.leftSide {
+h2 {
+	font-size: 24px;
+}
+
+a {
+	color: #FF0000;
+}
+
+.container {
+	width: 1024px;
+	margin: 0px auto;
+}
+
+
+.myBio {
 	float: left;
-	margin: 20px;
+	width: 70%;
 }
 
-.center {
-	float: center;
-	margin-top: 100px;
-	width: 80%
-	height: 80%;
+.contactInfo {
+	float: left;
+	width: 28%;
+	margin-left: 2%;
 }
 
-.rightSide {
-	float: right;
-	margin: 20px;
+.myPic {
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin-right: 20px;
 }
